@@ -8,4 +8,4 @@ A set of Roslyn Diagnostic Analyzers and Code Fixes for Async/Await Programming 
 * **ASYNC-0003** - Use ConfigureAwait in library code. This diagnostic verifies that CongfigureAwait(false) is used in library code.
 
 ## Code Fixes
-* Fix for [ASYNC-0002].
+* Fix for **ASYNC-0002**.
