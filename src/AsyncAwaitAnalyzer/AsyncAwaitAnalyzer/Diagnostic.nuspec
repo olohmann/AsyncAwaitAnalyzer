@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>AsyncAwaitAnalyzer</id>
+    <version>0.1.0.0</version>
+    <title>AsyncAwaitAnalyzer</title>
+    <authors>Oliver Lohmann; Ricardo Wickel</authors>
+    <owners>olohmann</owners>
+    <licenseUrl>http://raw.githubusercontent.com/olohmann/AsyncAwaitAnalyzer/master/LICENSE</licenseUrl>
+    <projectUrl>http://github.com/olohmann/AsyncAwaitAnalyzer</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>AsyncAwaitAnalyzer</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Roslyn Diagnostics CodeFixes</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="*.dll" target="tools\analyzers\" exclude="**\Microsoft.CodeAnalysis.*;**\System.Collections.Immutable.*;**\System.Reflection.Metadata.*" />
+    <file src="tools\*.ps1" target="tools\" />
+  </files>
+</package>

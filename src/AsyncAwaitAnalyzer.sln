@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22512.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitAnalyzer", "AsyncAwaitAnalyzer\AsyncAwaitAnalyzer\AsyncAwaitAnalyzer.csproj", "{C82EC506-F082-4851-8425-DD6ACCBAC328}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0E906932-1F80-441F-B6BB-AD94E8A3E133}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitAnalyzer.Vsix", "AsyncAwaitAnalyzer\AsyncAwaitAnalyzer.Vsix\AsyncAwaitAnalyzer.Vsix.csproj", "{831136DB-21DE-47E9-B2BE-DE441BED9AFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VerificationProjects", "VerificationProjects", "{FCFD7203-3686-4217-AFA1-3816557008BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitAnalyzer.Verification", "AsyncAwaitAnalyzer.Verification\AsyncAwaitAnalyzer.Verification.csproj", "{44C74072-5EE8-496C-ACCE-BA9590E6B9C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitAnalyzer.Verification.ClassLib", "AsyncAwaitAnalyzer.Verification.ClassLib\AsyncAwaitAnalyzer.Verification.ClassLib.csproj", "{00D469D4-7B09-406A-9409-CD6748BCE818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitAnalyzer.Verification.WpfApp", "AsyncAwaitAnalyzer.Verification.WpfApp\AsyncAwaitAnalyzer.Verification.WpfApp.csproj", "{4CFEB406-32C0-4275-BCB3-2D689922C74B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C82EC506-F082-4851-8425-DD6ACCBAC328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82EC506-F082-4851-8425-DD6ACCBAC328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82EC506-F082-4851-8425-DD6ACCBAC328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82EC506-F082-4851-8425-DD6ACCBAC328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831136DB-21DE-47E9-B2BE-DE441BED9AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831136DB-21DE-47E9-B2BE-DE441BED9AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831136DB-21DE-47E9-B2BE-DE441BED9AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831136DB-21DE-47E9-B2BE-DE441BED9AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44C74072-5EE8-496C-ACCE-BA9590E6B9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C74072-5EE8-496C-ACCE-BA9590E6B9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C74072-5EE8-496C-ACCE-BA9590E6B9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C74072-5EE8-496C-ACCE-BA9590E6B9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00D469D4-7B09-406A-9409-CD6748BCE818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00D469D4-7B09-406A-9409-CD6748BCE818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00D469D4-7B09-406A-9409-CD6748BCE818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00D469D4-7B09-406A-9409-CD6748BCE818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFEB406-32C0-4275-BCB3-2D689922C74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFEB406-32C0-4275-BCB3-2D689922C74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFEB406-32C0-4275-BCB3-2D689922C74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFEB406-32C0-4275-BCB3-2D689922C74B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44C74072-5EE8-496C-ACCE-BA9590E6B9C4} = {FCFD7203-3686-4217-AFA1-3816557008BE}
+		{00D469D4-7B09-406A-9409-CD6748BCE818} = {FCFD7203-3686-4217-AFA1-3816557008BE}
+		{4CFEB406-32C0-4275-BCB3-2D689922C74B} = {FCFD7203-3686-4217-AFA1-3816557008BE}
+	EndGlobalSection
+EndGlobal
